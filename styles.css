@@ -1,0 +1,68 @@
+body {
+  background: #f4565399;
+  font-family: monospace;
+  font-size: 16px;
+  color: #ffdb75;
+  color: #fff;
+}
+
+.inset-0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.relative-container {
+  position: relative;
+  margin: 50px auto;
+  width: fit-content;
+}
+
+.center-container {
+  display: grid;
+  place-items: center;
+}
+
+.time {
+  font-size: 90px;
+  position: relative;
+  top: 3px;
+}
+
+#pie {
+  display: block;
+}
+
+#pie-path {
+  fill: #f45653;
+}
+
+.fit-width {
+  width: fit-content;
+  margin: 20px auto;
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  outline-width: 0 !important;
+  cursor: pointer;
+  color: #fff;
+  background: #f45653;
+  padding: 4px 8px;
+  font-size: inherit;
+  width: 60px;
+  border: solid 2px #f45653;
+}
+
+button.selected {
+  border: solid 2px #fff;
+}
+
+button.big {
+  font-size: 24px;
+  width: 80px;
+}
